@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import initWasm, { double } from "../pkg/wasm_example"; // 패키지명은 Cargo.toml [package] name 기준
+import initWasm, { double } from "../pkg/wasm_rust"; // 패키지명은 Cargo.toml [package] name 기준
 
 function App() {
   const [currentNumber, setCurrentNumber] = useState<number>(1);
